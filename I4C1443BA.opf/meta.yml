@@ -1,0 +1,49 @@
+id: I4C1443BA
+ocr_import_info:
+  bdrc_scan_id: W1KG16138
+  source: bdrc
+  ocr_info:
+    timestamp: '2023-02-01T00:00:00Z'
+  batch_id: batch-0002
+  software_id: norbuketaka
+  expected_default_language: bo
+  op_import_options: null
+default_language: bo
+source: https://library.bdrc.io
+initial_creation_type: ocr
+imported: 2023-03-08 20:55:19.816061
+last_modified: 2023-02-01 00:00:00+00:00
+parser: https://github.com/OpenPecha/Norbu-Keta-eText-import/blob/main/norbu_ketaka_parser.py
+source_metadata:
+  id: http://purl.bdrc.io/resource/W1KG16138
+  status: http://purl.bdrc.io/admindata/StatusReleased
+  access: http://purl.bdrc.io/admindata/AccessOpen
+  reproduction_of: http://purl.bdrc.io/resource/MW1KG16138
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: ལེགས་བཤད་གསེར་ཕྲེང་།
+  languages:
+  - bo
+  author: ཙོང་ཁ་པ་བློ་བཟང་གྲགས་པ།
+bases:
+  I1KG16142:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG16142
+      total_pages: 548
+      volume_number: 2
+      volume_pages_bdrc_intro: 2
+    base_file: I1KG16142.txt
+    order: 1
+  I1KG16141:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG16141
+      total_pages: 642
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    base_file: I1KG16141.txt
+    order: 2
+copyright:
+  status: Public domain
+  notice: The proofread texts are donated by the Norbu Ketaka project led by Queenie
+    Luo (Harvard University), Zhiying Li (Sichuan University) and Leonard van der
+    Kuijp (Harvard University). Correspondence should be directed to  queenieluo@g.harvard.edu
+license: CC0
